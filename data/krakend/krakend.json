@@ -73,7 +73,17 @@
                     "whitelist": [
                         "content"
                     ]
-                }
+                },
+                {
+                    "url_pattern": "/users/{user}",
+                    "encoding": "json",
+                    "sd": "static",
+                    "method": "GET",
+                    "host": [
+                      "https://api.github.com"
+                    ],
+                    "disable_host_sanitize": false
+                  }
             ]
         },
         {
