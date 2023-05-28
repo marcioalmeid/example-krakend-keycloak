@@ -15,7 +15,7 @@ services:
 #     ports:
 #       - "8402:8080"
     volumes:
-      - ./data/krakend:/etc/krakend
+      - /home/marcio/data/krakend:/etc/krakend
 
   krakend-designer:
     image: devopsfaith/krakendesigner:latest
