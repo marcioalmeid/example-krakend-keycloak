@@ -56,4 +56,4 @@ services:
       DB_PASSWORD: password
       KEYCLOAK_USER: admin
       KEYCLOAK_PASSWORD: admin
-      KEYCLOAK_FRONTEND_URL: https://keycloak.bexse.appibride.com/auth/
+      KEYCLOAK_FRONTEND_URL: https://auth2.bexse.appibride.com/auth/
